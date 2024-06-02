@@ -1,0 +1,33 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="icon" type="image/png" href="assets/logo.png">
+</head>
+<body>
+
+<div class="contact-container">
+    <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+       <div class="contact-left-title">
+            <h2> Get in touch</h2>
+           <hr>
+       </div>
+       <input type="hidden" name="access_key" value="f8cdc23d-64b9-4042-af40-5ea77f7718e6">
+        <input type="text" name="name" placeholder="Name and Surname" class="contact-inputs" required>
+        <input type="email" name="email" placeholder="Email" class="contact-inputs" required>
+        <textarea name="message" placeholder="Message" class="contact-inputs" required></textarea>
+        <button type="submit" > Submit <img src="/assets/arrow_icon.png" alt=""></button>
+    </form>
+    <div class="contact-right">
+        <img src="assets/contact.jpg" alt="OCT Image">
+
+    </div>
+
+</div>
+
+</body>
+</html>
